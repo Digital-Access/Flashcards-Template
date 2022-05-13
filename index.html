@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Flashcards</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="headerContainer" class=" headerContainer">
+            <img id="image" class="image" src="" alt="" srcset="">
+            <div>
+                <div class="title" id="title"> </div>
+                <div class="instruction" id="instruction"></div>
+            </div>
+        </div>
+
+        <div id="mainContainer" class="mainContainer">
+            <div class="scoreContainer" id="scoreContainer">
+                <p>Score: <span id="score"></span> / <span id="total"></span></p>
+            </div>
+            <div class="card" id="card">
+                <div id="textContainer" class="textContainer">
+                    <h2 class="question" id="question"></h2>
+                    <h2 class="answer" id="answer"></h2>
+                    <img class="answerImage" id="answerImage" src="" alt="" srcset="">
+                </div>
+                <div class="cardBtnContainer">
+                    <button id="cardBtnAnswer" class="cardBtn">Reveal Answer</button>
+                    <button id="cardBtnQuestion" class="cardBtn">Back to Question</button>
+                </div>
+            </div>
+            <div class="navBtns" id="navBtns">
+                <button class="prev Btn" id="prevBtn">Previous Card</button>
+                <h4 class="answerValue" id="answerValue"></h4>
+                <button class="next Btn" id="nextBtn">Next Card</button>
+            </div>
+        </div>
+
+        <div class="answerContainer" id="answerContainer">
+            <h4 class="inputInstructions" id="inputInstructions">
+                Type your Answer:
+            </h4>
+            <input class="input" type="text" name="" id="input">
+            <button id="proceed" class="submit">Well done! Proceed</button>
+        </div>
+    </div>
+
+    <div id="endContainer" class="endContainer">
+        <img src="" class="endImg" id="endImg">
+        <div id="endMessage" class="endMessage"></div>
+    </div>
+
+</body>
+
+</html>
