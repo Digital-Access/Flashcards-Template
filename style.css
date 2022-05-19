@@ -55,7 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 100%;
 }
 
 .navBtns {
@@ -137,10 +137,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 90%;
+    align-items: center;
+    width: auto;
     padding: 1rem;
     gap: 0.5rem;
 }
+
+
 
 .answerImage{
     max-height: 100px;
@@ -153,6 +156,11 @@ body {
     color: black;
     padding: 0.5rem 0.5rem;
     outline: none;
+    width: 95%;
+}
+
+.inputInstructions{
+    width: 98%;
 }
 
 .answerValue{
@@ -223,13 +231,13 @@ body {
     }
 
     .card{
-        width: 100%;
+        width: 90%;
     }
     .navBtns{
-        width: 100%;
+        width: 90%;
     }
 
     .scoreContainer{
-        width: 100%;
+        width: 90%;
     }
 }
